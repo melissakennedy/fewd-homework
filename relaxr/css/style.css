@@ -27,6 +27,14 @@ Developer @GA in NYC
      height: 0;
 }
 
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .clear {
   clear: both;
 }
@@ -47,17 +55,17 @@ Developer @GA in NYC
 /*******************************************/
 
 BODY {
-     font-size: 26px;
+     font-size: 22px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
      background-size: cover;
-     font-weight:300 
+     font-weight:300
+     color:#606161;
 }
 
-a {
+A {
   text-decoration: none;
 }
-
 
 H1 {
   font-size:24px;
@@ -72,27 +80,29 @@ H2 {
   margin-bottom:30px;
 }
 
-H3 {
+SPAN {
   font-weight:600;
-  font-size:20px;
-  color: #ffffff;
 }
 
 .logo{
   font-weight:800;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .yellow {
-  color: #f9e42e;
+  background: #f9e42e;
+  color: #033048;
 }
 
-.yellow-button {
-    background-color: #f9e42e;
-    font-weight:800;
-    font-size:24px;
-    color: #033048;
-    padding: 8px 40px;
+.blue {
+  background: #033048;
+  color: #fff;
+}
+
+.button {
+    font-weight: 800;
+    font-size: 24px;
+    padding: 12px 0px;
     width: 260px;
     text-align: center;
     text-decoration: none;
@@ -101,73 +111,67 @@ H3 {
     margin: 0 auto;
     cursor: pointer;
 }
-
-.blue-button {
-    background-color: #033048;
-    font-weight:800;
-    font-size:14px;
-    color: #f9e42e;
-    padding: 8px 40px;
-    text-align: center;
-    text-decoration: none;
-    width: 280px;
-    display: block;
-    border-radius: 5px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-
-
-span {
-  font-weight:600;
-}
-
-P {
-  font-size:13px;
-  font-weight:300;
-  color:#121212;
-}
-  
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
-    height: 500px;
+.container {
+    height: 960;
+    margin: 0 auto;
 }
-
 
 header {
   height:700px;
   padding-top:32px;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url(../images/header_bg.jpg) no-repeat center top;
   background-size: cover;
 }
 
-
-.content {
-  width: 500px;
-  margin: auto;
+header .logo {
+  color: #fff;
+  padding-left: 50px;
 }
 
-#benefits p, #benefits ul {
-  width:600px;
+header h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
 }
 
 #benefits {
-  padding:100px 0 80px;
+ padding: 100px 100px;
+}
+
+H3 {
+  font-weight:700;
+  font-size:40px;
+  color: #033048;
+  margin-bottom: 40px;
+}
+
+H4 {
+  color: #f9e42e;
+  margin-bottom: 40px;
+}
+
+#benefits p, #benefits ul {
+  width: 680px;
 }
 
 #benefits ul {
-  list-style:disc;
-  margin: 30px 0 0 80px;
+  list style: disc;
+  margin: 30px 50px;
+  text-align: left;
+  line-height: 1.5;
 }
 
+
 #testimonial {
-  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
-  background-size:cover;
+  background: url(../images/testimonial_bg.jpg) no-repeat top;
+  background-size: cover;
   padding: 70px 0 70px;
   color: #fff;
 }
@@ -186,6 +190,28 @@ blockquote span {
   font-weight: 600;
   display: block;
   font-style: normal;
+}
+
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align:center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
 }
 /******************************************
 /* ADDITIONAL STYLES
