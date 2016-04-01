@@ -1,0 +1,24 @@
+body {
+  font-family: 'Raleway';
+  padding-left:20px;
+}
+
+h1 {
+  font-size:30px;
+  font-weight:500;
+}
+
+h2 {
+  font-size:22px;
+  color: #2e5aaf;
+  font-weight:400;
+}
+
+img {
+  width:200px;
+  padding:0 10px 60px 10px;
+}
+
+img.landscape {
+  width:300px;
+}
