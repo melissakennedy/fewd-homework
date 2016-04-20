@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color:white;
+  font-family: 'Graduate', monospace;
+  text-align: center;
+}
+
+button {
+  font-family: 'Graduate', monospace;
+  font-size:14px;
+  color:black;
+  background-color:orange;
+  border:none;
+  border-radius:5px;
+  padding: 8px 22px 8px 22px;
+}
+
+button:hover {
+  background-color:#ee7600;
+}
+
+img {
+  width:350px;
+}
+
+input {
+  height: 30px;
+  padding-left: 5px;
+  width: 300px;
+  border: none;
+  border-radius:5px;
+}
+
+.purple {
+  background-color: purple;
+}
+
+/* Your CSS goes here */
