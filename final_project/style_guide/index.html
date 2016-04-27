@@ -4,164 +4,240 @@
   <head>
     <meta charset="utf-8">
     <title>Style Guide</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/fontello.css">
-  </head>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
 
   <body>
 <!-- Header -->
     <header>
-      <div class="section group">
-        <div class="col span_6_of_12">
+      <div class="section">
+        <div class="col 2 left">
           STYLE GUIDE
         </div>
-        <div class="col span_6_of_12">
+        <div class="col 2">
           LINKS HERE
         </div>
       </div>
     </header>
 
 <!-- Colors Section-->
-    <div class="section group">
-      <div class="col span_12_of_12">
+    <section id="block-img">
+      <div class="col one title">
         <h2>Colors</h2>
-        <hr>
       </div>
-    </div>
 
-    <div class="section group">
-      <div class="col six swatches">Swatch 1</div>
-      <div class="col six swatches">Swatch 2</div>
-      <div class="col six swatches">Swatch 3</div>
-      <div class="col six swatches">Swatch 4</div>
-      <div class="col six swatches">Swatch 5</div>
-      <div class="col six swatches">Swatch 6</div>
-    </div>
+      <div class="col six swatches black">
+        <div class="swatch">
+          Black <br> <span style="font-size: .8em; font-family: monospace;">#000000</span>
+        </div>
+      </div>
+
+      <div class="col six swatches navy">
+        <div class="swatch">
+          Navyish <br> <span style="font-size: .8em; font-family: monospace;">#004358</span>
+        </div>
+      </div>
+
+      <div class="col six swatches aqua">
+        <div class="swatch">
+          Aqua <br> <span style="font-size: .8em; font-family: monospace;">#1F8A70</span>
+        </div>
+      </div>
+
+      <div class="col six swatches green">
+        <div class="swatch">
+          Lime Green <br> <span style="font-size: .8em; font-family: monospace;">#BEDB39</span>
+        </div>
+      </div>
+
+      <div class="col six swatches yellow">
+        <div class="swatch">
+          Yellow <br> <span style="font-size: .8em; font-family: monospace;">#FFE11A</span>
+        </div>
+      </div>
+
+      <div class="col six swatches orange">
+        <div class="swatch">
+          Orange<br> <span style="font-size: .8em; font-family: monospace;">#FD7400</span>
+        </div>
+      </div>
+
+    </section>
+
 
 <!-- Fonts Section-->
-    <div class="section group">
-      <div class="col one">
-        <h2>Fonts</h2>
-        <hr>
-      </div>
-    </div>
-
-    <div class="section group">
-      <div class="col two">
-      <h4>Primary Family</h4>
-        "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-      <h4>Primary Weights</h4>
-          200, 400, 600italic, 800italic, 900
-      </div>
+      <section id="block-img">
+        <div class="col one title font">
+          <h2>Fonts</h2>
+        </div>
 
         <div class="col two">
-        <h4>Secondary Family</h4>
-          "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        <h4>Secondary Weights</h4>
+          <div class="copy-label">
+            <h5 class="lt-grey">Primary Family</h5>
+          </div>
+          <div class="copy-font">
+            "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+          </div>
+          <div class="copy-label">
+            <h5 class="lt-grey">Primary Weights</h5>
+          </div>
+          <div class="copy-font">
             200, 400, 600italic, 800italic, 900
+          </div>
         </div>
-      </div>
+
+        <div class="col two">
+          <div class="copy-label">
+            <h5 class="lt-grey">Secondary Family</h5>
+          </div>
+          <div class="copy-font">
+            "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+          </div>
+          <div class="copy-label">
+            <h5 class="lt-grey">Secondary Weights</h5>
+          </div>
+          <div class="copy-font">
+              200, 400, 600italic, 800italic, 900
+          </div>
+        </div>
+
+      </section>
+
 
 <!-- Text Section-->
-      <div class="section">
-        <div class="col one">
+
+    <section id="block-img">
+
+        <div class="col one title">
           <h2>Text</h2>
-          <h3>Headings</h3>
-          <hr>
         </div>
-      </div>
 
-      <div class="section">
         <div class="col one">
-          <h1>Of course they don’t want us to eat our breakfast.</h1>
-          <h2>Of course they don’t want us to eat our breakfast.</h2>
-          <h3>Of course they don’t want us to eat our breakfast.</h3>
-          <h4>Of course they don’t want us to eat our breakfast.</h4>
-          <h5>Of course they don’t want us to eat our breakfast.</h5>
+          <div class="copy-label">
+            <h5 class="lt-grey">Headings</h5>
+          </div>
+          <div class="copy-head">
+            <code class="code-left">h1</code>
+            <h1>Of course they don’t want us to eat our breakfast.</h1>
+          </div>
+          <div class="copy-head">
+            <code class="code-left">h2</code>
+            <h2 class="noline">Of course they don’t want us to eat our breakfast.</h2>
+          </div>
+          <div class="copy-head">
+            <code class="code-left">h3</code>
+            <h3>Of course they don’t want us to eat our breakfast.</h3>
+          </div>
+          <div class="copy-head">
+            <code class="code-left">h4</code>
+            <h4>Of course they don’t want us to eat our breakfast.</h4>
+          </div>
+          <div class="copy-head">
+            <code class="code-left">h5</code>
+            <h5>Of course they don’t want us to eat our breakfast.</h5>
+          </div>
+        </div>
+
+      <div class="col two left">
+        <div class="copy-label">
+          <h5 class="lt-grey">Paragraph</h5>
+        </div>
+        <p>
+          Lorem Khaled Ipsum is a major key to success. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. Cloth talk. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. I’m up to something. Fan luv. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.
+        </p>
+      </div>
+
+      <div class="col two">
+        <div class="copy-label">
+          <h5 class="lt-grey">Block Quote</h5>
+        </div>
+        <blockquote>
+          Lorem Khaled Ipsum is a major key to success. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. Cloth talk. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. I’m up to something.
+        </blockquote>
+      </div>
+
+      <div class="col one">
+        <div class="copy-label">
+          <h5 class="lt-grey">Inline Elements</h5>
         </div>
       </div>
 
-    <div class="section">
-      <div class="col two">
-        <h3>Paragraph</h3>
-        <hr>
-        <p>
-          Lorem Khaled Ipsum is a major key to success. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. Cloth talk. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. I’m up to something. Fan luv. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.
-        </p>
+      <div class="col two left">
+        <div class="copy-inline">
+          <p>
+            <a href="#">This is a text link</a>
+          </p>
+          <p>
+            <strong>Strong is used to indicate strong importance</strong>
+          </p>
+          <p>
+            <em>This text has added emphasis</em>
+          </p>
+          <p>
+            The <b>b element</b> is for bold things
+          </p>
+          <p>
+            The <i>i element</i> is for italic things
+          </p>
+          <p>
+            Here is some <u>underlined</u> stuff
+          </p>
+          <p>
+            <del>This text is deleted</del> and <ins>This text is inserted</ins>
+          </p>
+          <p>
+            <s>This text has a strikethrough</s>
+          </p>
+          <p>
+            Superscript®
+          </p>
+        </div>
       </div>
 
       <div class="col two">
-        <h3>Blockquote</h3>
-          <hr>
-        <p>
-          Lorem Khaled Ipsum is a major key to success. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. Cloth talk. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. I’m up to something. Fan luv. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.
-        </p>
-
+        <div class="copy-inline">
+          <p>
+            Subscript for things like H<sub>2</sub>O
+          </p>
+          <p>
+            <small>This small text is small for for fine print, etc.</small>
+          </p>
+          <p>
+            Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>
+          </p>
+          <p>
+            Keybord input: <kbd>Cmd</kbd>
+          </p>
+          <p>
+            <cite>This is a citation</cite>
+          </p>
+          <p>
+            The <dfn>dfn</dfn> element indicates a definition.
+          </p>
+          <p>
+            The <mark>element</mark> indicates a highlight
+          </p>
+          <p>
+            <code>This is what inline code looks like.</code>
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section group">
-      <div class="col one">
-        <h3>Inline Elements</h3>
-          <hr>
-      </div>
-    </div>
 
-    <div class="section group">
-      <div class="col two">
-        This is a text link
-        <br>
-        Strong is used to indicate strong importance
-        <br>
-        This text has added emphasis
-        <br>
-        The b element is stylistically different text from normal text, without any special importance
-        <br>
-        The i element is text that is set off from the normal text
-        <br>
-        The u element is text with an unarticulated, though explicitly rendered, non-textual annotation
-        <br>
-        This text is deleted and This text is inserted
-        <br>
-        This text has a strikethrough
-        <br>
-        Superscript®
-        <br>
-        Subscript for things like H2O
-        <br>
-        This small text is small for for fine print, etc.
+
+    <section id="block-img">
+      <div class="col one title">
+          <h2>Lists</h2>
       </div>
 
-      <div class="col two">
-        This is a text link
-        <br>
-        Strong is used to indicate strong importance
-        <br>
-        This text has added emphasis
-        <br>
-        The b element is stylistically different text from normal text, without any special importance
-        <br>
-        The i element is text that is set off from the normal text
-        <br>
-        The u element is text with an unarticulated, though explicitly rendered, non-textual annotation
-        <br>
-        This text is deleted and This text is inserted
-        <br>
-        This text has a strikethrough
-        <br>
-        Superscript®
-        <br>
-        Subscript for things like H2O
-        <br>
-        This small text is small for for fine print, etc.
-      </div>
-    </div>
-
-    <div class="section group">
       <div class="col three">
-        <h3>Unordered List</h3>
-      <hr>
+        <div class="copy-label">
+          <h5 class="lt-grey">Unordered List</h5>
+        </div>
         <ul>
           <li>You see that bamboo behind me though?</li>
           <li>Ain’t nothin’ like bamboo.</li>
@@ -171,110 +247,162 @@
         </ul>
       </div>
 
-      <div class="col three">
-        <h3>Ordered List</h3>
-        <hr>
-        <ol>
-          <li>You see that bamboo behind me though?</li>
-          <li>Ain’t nothin’ like bamboo.</li>
-          <li>Bless up. Another one.</li>
-          <li>Life is like a water fall, you’ve gotta flow.</li>
-          <li>Never surrender. </li>
-        </ol>
+    <div class="col three">
+      <div class="copy-label">
+        <h5 class="lt-grey">Ordered List</h5>
       </div>
-
-      <div class="col three">
-        <h3>Definition List</h3>
-        <hr>
-        <dl>
-          <li>You see that bamboo behind me though?</li>
-          <li>Ain’t nothin’ like bamboo.</li>
-          <li>Bless up. Another one.</li>
-          <li>Life is like a water fall, you’ve gotta flow.</li>
-          <li>Never surrender. </li>
-        </dl>
-      </div>
+      <ol>
+        <li>You see that bamboo behind me though?</li>
+        <li>Ain’t nothin’ like bamboo.</li>
+        <li>Bless up. Another one.</li>
+        <li>Life is like a water fall, you’ve gotta flow.</li>
+        <li>Never surrender. </li>
+      </ol>
     </div>
 
-    <div class="section group">
-      <div class="col one">
+    <div class="col three">
+      <div class="copy-label">
+        <h5 class="lt-grey">Definiton List</h5>
+      </div>
+      <dl>
+        <dt>You see that bamboo behind me though?</dt>
+        <dd>Ain’t nothin’ like bamboo.</dd>
+        <dt>Bless up. Another one.</dt>
+        <dd>Life is like a water fall, you’ve gotta flow.</dd>
+        <dt>Never surrender.</dt>
+      </dl>
+    </div>
+  </section>
+
+    <!-- Image Section-->
+    <section id="block-img">
+      <div class="col one title">
           <h2>Images</h2>
-          <hr>
       </div>
-    </div>
 
-    <div class="section group">
       <div class="col two">
-        <h3>Logo</h3>
-        <img src="http://placekitten.com/300/100" alt="logo"/>
-        <br>300x100
-        <h3>Square</h3>
+        <div class="copy-label">
+            <h5 class="lt-grey">Square</h5>
+        </div>
         <img src="http://placekitten.com/400/400" alt="Square"/>
-        <br>400x400
-        <h3>Landscape</h3>
-        <img src="http://placekitten.com/600/200" alt="landscape" />
-        <br>600x200
+
+        <div class="copy-label">
+            <h5 class="lt-grey">Landscape</h5>
+        </div>
+        <img src="http://placekitten.com/400/200" alt="Square"/>
       </div>
 
       <div class="col two">
-        <h3>Logo</h3>
-        <img src="http://placekitten.com/300/100" alt="logo"/>
-        <h3>Portrait</h3>
-        <img src="http://placekitten.com/250/500" alt="portrait"/>
-        <br>600x200
+        <div class="copy-label">
+            <h5 class="lt-grey">Portrait</h5>
+        </div>
+        <img src="http://placekitten.com/400/600" alt="Landscape"/>
       </div>
-    </div>
+  </section>
 
-    <div class="section group">
+    <!-- Icons Section-->
+
+    <section id="block-img">
       <div class="col one">
-          <h2>Icons</h2>
-          <hr>
-      </div>
-    </div>
-
-    <div class="section group">
-      <div class="col two">
-          <h3>SVGs</h3>
-          <hr>
+        <h2>SVGs</h2>
       </div>
 
       <div class="col two">
-          <h3>Preloaders</h3>
-            <hr>
+        <div class="copy-label">
+            <h5 class="lt-grey">Logos</h5>
+        </div>
+        <img src="images/batman_logo.svg" alt="logo lrg" id="logo-lrg"/>
+        <img src="images/batman_logo.svg" alt="logo md" id="logo-md"/>
+        <img src="images/batman_logo.svg" alt="logo sm" id="logo-sm"/>
       </div>
-    </div>
 
-    <div class="section group">
+      <div class="col four">
+        <div class="copy-label">
+            <h5 class="lt-grey">Icons</h5>
+        </div>
+        <i class="fa fa-search fa-2x"></i>
+        <i class="fa fa-bars fa-2x"></i>
+        <i class="fa fa-times fa-2x"></i>
+        <i class="fa fa-heart fa-2x"></i>
+        <i class="fa fa-chevron-right fa-2x"></i>
+        <i class="fa fa-chevron-left fa-2x"></i>
+      </div>
+
+      <div class="col four">
+        <div class="copy-label">
+            <h5 class="lt-grey">Animated</h5>
+        </div>
+          <i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+          <span class="sr-only">Loading...</span>
+      </div>
+    </section>
+
+    <!-- Text Fields Section-->
+
+    <section id="block-img">
       <div class="col one">
         <h2>Text Fields</h2>
-        <hr>
-      </div>
-    </div>
+     </div>
 
-    <div class="section group">
+      <div class="col two left">
+        <div class="textinput">
+          <input type="text" id="name"/>
+          <label for="name">First name</label>
+        </div>
+
+        <div class="textinput">
+          <input type="text" id="lastname" />
+          <label for="lastname">Last name</label>
+        </div>
+
+        <div class="textinput">
+          <input type="email" id="email" />
+          <label for="email">Email address</label>
+        </div>
+      </div>
+
       <div class="col two">
-        <form>
-          <label for="text input">First Name</label>
-          <input type="text" placeholder="Text here"> </input>
-          <br>
-          <label for="textarea">Text area</label>
-          <textarea name="textarea" rows="8" cols="40"></textarea>
-        </form>
-      </div>
+        <div class="textinput">
+          <select name="city">
+            <option value="sanmo">Santa Monica</option>
+            <option value="la">Los Angeles</option>
+            <option value="pasadena">Pasadena</option>
+            <option value="glendale">Glendale</option>
+          </select>
+        </div>
 
-      <div class="col two">
-        <form>
-          <label for="text input">First Name</label>
-          <input type="text" placeholder="Text here"> </input>
-          <br>
-          <label for="textarea">Text area</label>
-          <textarea name="textarea" rows="8" cols="40"></textarea>
-        </form>
-      </div>
-    </div>
+        <div class="form">
+          <input type="checkbox" name="remember_me" value="A">
+          <input type="checkbox" name="remember_me" value="B">
+          <input type="checkbox" name="remember_me" value="C">
+        </div>
 
+        <div class="form">
+          <input type="radio" name="choose_option" value="1">
+          <input type="radio" name="choose_option" value="2">
+          <input type="radio" name="choose_option" value="3">
+        </div>
+
+        <div class="textinput">
+        Number input
+        <input type="number" name="quantity" min="1" max="5">
+        </div>
+
+        <div class="textinput">
+        Birthday:
+        <input type="date" name="bday">
+        </div>
+
+        <div class="form">
+        <input type="submit" name="submit" value="Submit me"/>
+        </div>
+      </div>
+    </section>
 
 
 
   </body>
+
+  <script src="http://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </html>

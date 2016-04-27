@@ -1,0 +1,11 @@
+input {
+  display:block;
+}
+
+#radio {
+  display: inline-block;
+}
+
+#terms {
+  display: inline-block;
+}

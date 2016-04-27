@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+}
+
+input {
+  display:block;
+  margin-bottom: 10px;
+}
+
+.input {
+  height:30px;
+  width:200px;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+
+
+/* Your CSS goes here */
